@@ -1,70 +1,156 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h2><b>React Todo List </b></h2>
+</div>
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm start`
+# 📖 React Todo List <a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**React Todo List** is a Single Page Todo List Application  that allows a user to add, edit and delete a todo item on a todo list. It is built with React JS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm test`
+### Tech Stack <a name="tech-stack"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">HTML</a></li>
+     <li><a href="#">CSS</a></li>
+     <li><a href="#">JavaScript</a></li>
+     <li><a href="https://reactjs.org/">React JS</a></li>
+  </ul>
+</details>
 
-### `npm run build`
+### Key Features <a name="key-features"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Add Todo:** This is feature allows the user to add a new item to the todo list.
+- **Edit Todo:** This is feature allows the user to edit an existing todo item on the todo list.
+- **Delete Todo:** This is feature allows to delete a todo item from the todo list.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### `npm run eject`
+- [Live Demo Link](#)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Getting Started <a name="getting-started"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get a local copy up and running, follow these steps.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+In order to run this project you need:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<ul>
+    <li>Visual Studio Codes text editor</li>
+    <li>Any preferable command line or terminal</li>
+    <li>A web browser. I recommend Google Chrome.</li>
+</ul>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Setup
 
-### Code Splitting
+Clone this repository to your desired folder by doing the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<ol>
+    <li>Open your terminal or command line and cd into your prefered folder</li>
+    <li>Run the command "git clone git@github.com:Adams-Ghub/react-todo-app.git" in the terminal or command line</li>
+    <li>Launch your Visual Studio codes</li>
+    <li>Open your folder in the VS Codes and you are all set.</li>
+</ol>
 
-### Analyzing the Bundle Size
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Once you clone the project it is already installed on your machine.
 
-### Making a Progressive Web App
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To run the project, follow one of the following steps:
 
-### Advanced Configuration
+<ol>
+    <li>Open your browser</li>
+    <li>run the command "npm start".</li>
+</ol>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Run tests
+
+To run tests, do the following for each various tests:
+
+<ol>
+    <li>Run the command "npx eslint ." to test for javascript linter errors</li>
+    <li>Run the command "npx stylelint "**/*.{css,scss}"" to test for css linter errors</li>       
+</ol>
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using Github pages.
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👥 Authors <a name="authors"></a>
+
+👤 **Adams Bamfo**
+
+- GitHub: [Adams-Ghub](https://github.com/Adams-Ghub)
+- Twitter: [@bamfoaf](https://twitter.com/bamfoaf)
+- LinkedIn: [Adams Bamfo](https://www.linkedin.com/in/adams-bamfo-3aaa3011b/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Animations**
+- [ ] **Interactivity**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Do not hesitate to notify me of any issue with this project through the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project help me propagate it more by following it's demo videos I have on the social media handles.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse and Ibas Majeed for their support in developing this project to get the best quality.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
